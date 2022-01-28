@@ -8,7 +8,55 @@
     <title>Save the Reefs - form</title>
     <link rel="stylesheet" href="style.css" defer />
   </head>
-  <body>
-    
+  <body style="background: url(assets/bg.png);">
+    <form class="form">
+      <h1><u>Save the reefs</u></h1>
+      <h3>General Information</h3>
+      <p>Name:</p>
+      <input type="text" placeholder="name"><br>
+      <p>How many reefs have you visited?</p>
+      <!-- add value tags -->
+      <input type="radio" id="reef1" name="reef">
+      <label for="age1">0-3</label><br>
+      <input type="radio" id="reef2" name="reef">
+      <label for="age2">3-6</label><br>  
+      <input type="radio" id="reef3" name="reef">
+      <label for="age3">6+</label><br>
+      <p>How many ecotourism oriented trips have you taken?</p>
+      <input type="radio" id="reef1" name="tript">
+      <label for="age1">0-5</label><br>
+      <input type="radio" id="reef2" name="tript">
+      <label for="age2">5-10</label><br>  
+      <input type="radio" id="reef3" name="tript">
+      <label for="age3">10+</label><br>
+      <p>How many trips do you take in a year?</p>
+      <input type="radio" id="reef1" name="trip">
+      <label for="age1">0-2</label><br>
+      <input type="radio" id="reef2" name="trip">
+      <label for="age2">2-5</label><br>  
+      <input type="radio" id="reef3" name="trip">
+      <label for="age3">5+</label><br>
+      <p>As a tourist, what is something you wish would happen in these trips but does not occur?</p>
+      <textarea name="tourist-feedback" placeholder="your opinions..."></textarea>
+      <h3>Reef Animals and ecotourism</h3>
+      <p>Were you given a diving class before entering a coral reef?</p>
+      <input type="radio" id="reef1" name="dive">
+      <label for="age1">yes</label><br>
+      <input type="radio" id="reef2" name="dive">
+      <label for="age2">no</label><br>  
+      <input type="radio" id="reef3" name="dive">
+      <label for="age3">sometimes</label><br>
+      <p>In case of a medical emergency, how prepared was the tour guide?</p>
+      <input type="radio" id="reef1" name="dive">
+      <label for="age1">Very prepared</label><br>
+      <input type="radio" id="reef2" name="dive">
+      <label for="age2">Had the minimums</label><br>  
+      <input type="radio" id="reef3" name="dive">
+      <label for="age3">No preparations at all.</label><br>
+      <p>How satisfied were you with the nature you saw?</p>
+      <textarea name="tourist-nature-feedback" placeholder="your opinions..."></textarea>
+      <p>What did you take as a souvenir, was it really eco-friendly?</p>
+      <textarea name="tourist-nature-feedback" placeholder="your opinions..."></textarea>
+    </form>
   </body>
 </html>

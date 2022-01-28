@@ -5,39 +5,60 @@
 }
 
 body {
-    text-align: center;
-    background-color: #6AB7E2;
+  text-align: center;
+  background-color: #6ab7e2;
 }
 
 header {
-    background: url(assets/Wave.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 10px;
-    height: 400px;
+  background: url(assets/Wave.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
+  height: 400px;
 }
 h1 {
-    font-size: 70px;
+  font-size: 70px;
 }
 
 h2 {
-    font-weight: 100;
+  font-weight: 100;
+}
+
+input {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+textarea {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.form {
+  text-align: left;
+  background-color: #8ac8ec;
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 ::marker {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .terms {
-    font-size: 12px;
-    font-weight: 100;
+  font-size: 6px;
+  font-weight: 100;
 }
 
 main {
-    width: 60%;
-    margin: auto;
+  width: 60%;
+  margin: auto;
 }
 
 a {
-    color: #ffffff;
+  color: #ffffff;
 }
